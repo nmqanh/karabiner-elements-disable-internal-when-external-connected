@@ -20,7 +20,7 @@ function setStatusForInternalKeyboard(isEnabled) {
   return true;
 }
 
-function checkBluetoothStatus() {
+function checkExternalKeyboardStatus() {
   exec(`ioreg -l -w 0 | grep -i '"ProductID" = ${EXTERNAL_KEYBOARD_ID}'`, (error, stdout, stderr) => {
     if (stdout) {
       setStatusForInternalKeyboard(false) && console.log('External Keyboard Connected!');
@@ -30,7 +30,7 @@ function checkBluetoothStatus() {
   });
 }
 
-setInterval(checkBluetoothStatus, 5000);
+setInterval(checkExternalKeyboardStatus, 5000);
 
 fs.watch(KARABINER_CONFIG_FILE, (eventType, filename) => {
   const now = Date.now();
