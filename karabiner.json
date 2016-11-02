@@ -1,0 +1,112 @@
+{
+    "profiles": [
+        {
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 628,
+                        "vendor_id": 1452
+                    },
+                    "ignore": true,
+                    "keyboard_type": 0
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 34050,
+                        "vendor_id": 2652
+                    },
+                    "ignore": true,
+                    "keyboard_type": 0
+                }
+            ],
+            "fn_function_keys": {
+                "f1": "vk_none",
+                "f10": "vk_none",
+                "f11": "vk_none",
+                "f12": "vk_none",
+                "f2": "vk_none",
+                "f3": "vk_none",
+                "f4": "vk_none",
+                "f5": "vk_none",
+                "f6": "vk_none",
+                "f7": "vk_none",
+                "f8": "vk_none",
+                "f9": "vk_none"
+            },
+            "name": "Disable Internal Keyboard",
+            "selected": true,
+            "simple_modifications": {
+                "0": "vk_none",
+                "1": "vk_none",
+                "2": "vk_none",
+                "3": "vk_none",
+                "4": "vk_none",
+                "5": "vk_none",
+                "6": "vk_none",
+                "7": "vk_none",
+                "8": "vk_none",
+                "9": "vk_none",
+                "a": "vk_none",
+                "b": "vk_none",
+                "backslash": "vk_none",
+                "c": "vk_none",
+                "caps_lock": "vk_none",
+                "close_bracket": "vk_none",
+                "comma": "vk_none",
+                "d": "vk_none",
+                "delete_or_backspace": "vk_none",
+                "down_arrow": "vk_none",
+                "e": "vk_none",
+                "equal_sign": "vk_none",
+                "escape": "vk_none",
+                "f": "vk_none",
+                "fn": "vk_none",
+                "g": "vk_none",
+                "grave_accent_and_tilde": "vk_none",
+                "h": "vk_none",
+                "hyphen": "vk_none",
+                "i": "vk_none",
+                "j": "vk_none",
+                "k": "vk_none",
+                "l": "vk_none",
+                "left_arrow": "vk_none",
+                "left_command": "vk_none",
+                "left_control": "vk_none",
+                "left_option": "vk_none",
+                "left_shift": "vk_none",
+                "m": "vk_none",
+                "n": "vk_none",
+                "o": "vk_none",
+                "open_bracket": "vk_none",
+                "p": "vk_none",
+                "period": "vk_none",
+                "power": "vk_none",
+                "q": "vk_none",
+                "quote": "vk_none",
+                "r": "vk_none",
+                "return_or_enter": "vk_none",
+                "right_arrow": "vk_none",
+                "right_command": "vk_none",
+                "right_option": "vk_none",
+                "right_shift": "vk_none",
+                "s": "vk_none",
+                "semicolon": "vk_none",
+                "slash": "vk_none",
+                "spacebar": "vk_none",
+                "t": "vk_none",
+                "tab": "vk_none",
+                "u": "vk_none",
+                "up_arrow": "vk_none",
+                "v": "vk_none",
+                "w": "vk_none",
+                "x": "vk_none",
+                "y": "vk_none",
+                "z": "vk_none"
+            }
+        }
+    ]
+}
